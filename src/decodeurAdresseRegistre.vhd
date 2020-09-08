@@ -1,0 +1,39 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY decodeurAdresseRegistre IS
+	port( 		
+		enable : IN STD_LOGIC;
+		d_in : IN STD_LOGIC_VECTOR(3 DOWNTO 0);		
+		s_out : OUT STD_LOGIC_VECTOR(15 DOWNTO 0)		
+	);
+END decodeurAdresseRegistre;
+
+ARCHITECTURE decodeurAdresseRegistre_bhv OF decodeurAdresseRegistre Is	
+	
+	SIGNAL tmp : STD_LOGIC_VECTOR(4 DOWNTO 0);
+	
+	BEGIN
+			tmp(0)<=enable;
+			tmp(4 DOWNTO 1)<=d_in;
+			
+			WITH tmp SELECT 	
+				s_out<="0000000000000001"  WHEN "00001",
+				"0000000000000010" WHEN "00011",
+				"0000000000000100" WHEN "00101",
+				"0000000000001000" WHEN "00111",
+				"0000000000010000" WHEN "01001",
+				"0000000000100000" WHEN "01011",
+				"0000000001000000" WHEN "01101",
+				"0000000010000000" WHEN "01111",
+				"0000000100000000" WHEN "10001",
+				"0000001000000000" WHEN "10011",
+				"0000010000000000" WHEN "10101",
+				"0000100000000000" WHEN "10111",
+				"0001000000000000" WHEN "11001",
+				"0010000000000000" WHEN "11011",
+				"0100000000000000" WHEN "11101",
+				"1000000000000000" WHEN "11111",
+				"----------------" WHEN OTHERS;
+
+END decodeurAdresseRegistre_bhv;

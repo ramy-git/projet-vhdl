@@ -1,0 +1,93 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2018  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+# Date created = 16:32:45  April 14, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		Processor_Project_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE auto
+set_global_assignment -name TOP_LEVEL_ENTITY Processor_Project
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:32:45  APRIL 14, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/UC.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_UC.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_ROM.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_RegNbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_Reg1bit.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_PROCESS1.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_PROCESS.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_MultArray_4bits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_Mult_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_Mult_array_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_FSM_detect.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_FA_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_FA_1bit.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_counter.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_AddSubNbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Test_Acc4.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/tb_UC.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/tb_PROCESS.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/tb_MultArray_4bits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/ROM_tb.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/ROM.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/RegNbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Reg1bit_test.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Reg1bit.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/PROCESS_16.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/PROCESS_.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mux2V1Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/MUX_Reg.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/MUX_Process.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mux_2v1_test.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mux_2v1_8bits_test.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mux_2v1_8bits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mux_2v1.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/MultArray_4bits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mult_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Mult_array_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/FSM_detect.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/FlipFlop_D.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/FA_Nbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/FA_1bit.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Decod7Seg_test.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Decod7Seg.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/CountNbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/counter_tb.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Counter.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/ALU.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/AddSubNbits.vhd"
+set_global_assignment -name VHDL_FILE "../../Users/majda/Documents/archi projet L3 tarek/Acc4.vhd"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
